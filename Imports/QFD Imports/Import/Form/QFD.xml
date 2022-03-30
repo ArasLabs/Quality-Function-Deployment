@@ -1,0 +1,190 @@
+﻿<AML>
+ <Item type="Form" id="03A199CCDCC24C2A9A606F0398AEA86F" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>QFD</name>
+  <Relationships>
+   <Item type="Body" id="E77D90FAD95547488C9E902AD60977FB" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD" type="Form">03A199CCDCC24C2A9A606F0398AEA86F</source_id>
+    <Relationships>
+     <Item type="Field" id="9891B33DB7E1402AAE2F0E59DE2D6314" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="_description" type="Property">50E5B628B53F4480BAA85EC86F5BDCBA</propertytype_id>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="E77D90FAD95547488C9E902AD60977FB" type="Body">E77D90FAD95547488C9E902AD60977FB</source_id>
+      <tab_index>3328</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>200</textarea_cols>
+      <textarea_rows>45</textarea_rows>
+      <x>52</x>
+      <y>114</y>
+      <name>_description</name>
+     </Item>
+     <Item type="Field" id="751E075E599B4B6EB00CFBB898E894E3" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">QFD Number</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="_item_number" type="Property">DF4B3F5F887945F4BBAEE242C9A7CD83</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="E77D90FAD95547488C9E902AD60977FB" type="Body">E77D90FAD95547488C9E902AD60977FB</source_id>
+      <tab_index>3200</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>51</x>
+      <y>21</y>
+      <name>_item_number</name>
+     </Item>
+     <Item type="Field" id="10D213AEFF3B413C81C3B16B6B323AAD" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="_name" type="Property">E38F1F1EE9B34851A6A33E2F6DF9FB2F</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="E77D90FAD95547488C9E902AD60977FB" type="Body">E77D90FAD95547488C9E902AD60977FB</source_id>
+      <tab_index>3072</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>200</textarea_cols>
+      <textarea_rows>15</textarea_rows>
+      <x>51</x>
+      <y>62</y>
+      <name>_name</name>
+     </Item>
+     <Item type="Field" id="BB255591C6A3474C98CEE20414A5CBFE" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">created_by_id</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="E77D90FAD95547488C9E902AD60977FB" type="Body">E77D90FAD95547488C9E902AD60977FB</source_id>
+      <tab_index>640</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>319</x>
+      <y>28</y>
+      <name>created_by_id</name>
+     </Item>
+     <Item type="Field" id="648D61AB599D4DE985CBD4759C03C3D4" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">created_on</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="E77D90FAD95547488C9E902AD60977FB" type="Body">E77D90FAD95547488C9E902AD60977FB</source_id>
+      <tab_index>512</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>319</x>
+      <y>109</y>
+      <name>created_on</name>
+     </Item>
+     <Item type="Field" id="EF20C23961534ADE9BCDF02303690CB4" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Team</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="E77D90FAD95547488C9E902AD60977FB" type="Body">E77D90FAD95547488C9E902AD60977FB</source_id>
+      <tab_index>2944</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>319</x>
+      <y>64</y>
+      <name>team_id</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Form Event" id="E03934F36EE947FF8DFA0AA0489AF685" action="add">
+    <form_event>onformpopulated</form_event>
+    <related_id keyed_name="cmf_ShowContentType" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>cmf_ShowContentType</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD" type="Form">03A199CCDCC24C2A9A606F0398AEA86F</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="BB255591C6A3474C98CEE20414A5CBFE" action="edit">
+  <!-- Please note: this AML depends on the "QFD" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>created_by_id</name>
+    <source_id type="ItemType" keyed_name="QFD">2DC0B27BCCB642CDA69560444C30F5DF</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="648D61AB599D4DE985CBD4759C03C3D4" action="edit">
+  <!-- Please note: this AML depends on the "QFD" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>created_on</name>
+    <source_id type="ItemType" keyed_name="QFD">2DC0B27BCCB642CDA69560444C30F5DF</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="EF20C23961534ADE9BCDF02303690CB4" action="edit">
+  <!-- Please note: this AML depends on the "QFD" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>team_id</name>
+    <source_id type="ItemType" keyed_name="QFD">2DC0B27BCCB642CDA69560444C30F5DF</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

@@ -1,0 +1,117 @@
+﻿<AML>
+ <Item type="cmf_TabularView" id="F1A93B2AF4F74F8783A098DEF7FC66FD" action="add">
+  <name>Key Diffs</name>
+  <Relationships>
+   <Item type="cmf_TabularViewColumn" id="5E37BF6C31924F70A139A9F97002655A" action="add">
+    <classification>Property Default</classification>
+    <col_order>2</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Relevance</header>
+    <initial_width>150</initial_width>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_Key_Diff_Rel" type="cmf_PropertyType">86D773D07861464AB838DAB784784CD0</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="1DD4A653EC4D400A8F1CCBC031C8790C" action="add">
+    <classification>Property Default</classification>
+    <col_order>5</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Competitor Products</header>
+    <initial_width>200</initial_width>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_Cur_Prod_descr" type="cmf_PropertyType">9634B0C74D384398BCE330C984F8C000</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="6F359ACCCD0B4E768F79465D25F1372F" action="add">
+    <classification>Property Default</classification>
+    <col_order>6</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Market Alignment</header>
+    <initial_width>100</initial_width>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_Cur_Prod_score" type="cmf_PropertyType">088BE533F6934E2D92DCB7E6BFADB962</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="FA01C3732E944BDF96BD9EA6A39B9234" action="add">
+    <classification>Property Default</classification>
+    <col_order>7</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">D-Score</header>
+    <initial_width>100</initial_width>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_DScore" type="cmf_PropertyType">E485938CC62547959AA66C3F2873F137</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="2ECEB5D0E321488083FA7F9E3DD72229" action="add">
+    <classification>Property Default</classification>
+    <col_order>8</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Pscore</header>
+    <initial_width>100</initial_width>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_PScore" type="cmf_PropertyType">2224A82700264673AD0D4CCA1505937E</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="CA56EC768E8E4295B0E9D96F6EA5E20C" action="add">
+    <classification>Property Default</classification>
+    <col_order>1</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Key Differentiator</header>
+    <initial_width>200</initial_width>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_Key_Diff_descr2" type="cmf_PropertyType">F3771E28E7C849A8A21F048AEBAFB1BE</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="2A57E6D098BD46DBA526C67BD429848D" action="add">
+    <classification>Property Default</classification>
+    <col_order>9</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Open Issues</header>
+    <initial_width>150</initial_width>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_Open_Issue" type="cmf_PropertyType">F9955D033BDA4B6085CB1007B1D7849C</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="491D4F8A291A43AA81D161DA4E1EAE43" action="add">
+    <classification>Property Default</classification>
+    <col_order>4</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Market Alignment</header>
+    <initial_width>100</initial_width>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_Our_Prod_score" type="cmf_PropertyType">E92A5CE1B16243C0ADCA3D8917E6B3A7</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="336910457F4F4F28BD9D4B06D68A9DE3" action="add">
+    <classification>Property Default</classification>
+    <col_order>3</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Our Product</header>
+    <initial_width>200</initial_width>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+    <property keyed_name="QFD_Our_Prod_descr" type="cmf_PropertyType">979D363722A74B6AA060C8F8840068F1</property>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="A29E5663D98D4306B003641CBD554BB0" action="add">
+    <document_element_icon>../Images/AlphaList.svg</document_element_icon>
+    <element_type keyed_name="QFD_Cur_Prod" type="cmf_ElementType">9973691A4D354FB2AD98456E12408114</element_type>
+    <label xml:lang="en">Comp</label>
+    <sort_order>32</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="297F61909700467A85FEA0A480CDDFD5" action="add">
+    <document_element_icon>../Images/AuthenticationClasses.svg</document_element_icon>
+    <label xml:lang="en">Key Diff</label>
+    <sort_order>64</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="AE84B58BA9FB4D40A87A1CF6EEDEF5C3" action="add">
+    <document_element_icon>../Images/MBOM.svg</document_element_icon>
+    <element_type keyed_name="QFD_Decomp" type="cmf_ElementType">EC6A5A1CCB544080922232AE28C01499</element_type>
+    <label xml:lang="en">Decomp</label>
+    <sort_order>96</sort_order>
+    <source_id keyed_name="Key Diffs" type="cmf_TabularView">F1A93B2AF4F74F8783A098DEF7FC66FD</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

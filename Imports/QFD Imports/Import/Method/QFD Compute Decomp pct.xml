@@ -1,0 +1,34 @@
+﻿<AML>
+ <Item type="Method" id="D2BBDCDA1BFD480F9881DDC215C26838" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var scopeIds = {};
+  for (var i = 0; i < inArgs.changedPropertyItems.length; i++) {
+// window.alert (i);
+      var currentAction = inArgs.changedPropertyItems[i].getElement().findAncestorElement("QFD_Decomp");
+      if (scopeIds[currentAction.id]) {
+          continue;
+     }
+      scopeIds[currentAction.id] = true;
+//    var req_pct = currentAction.getPropertyItem("QFD_VOC_attr_pct");
+    var decomp_pct = currentAction.getPropertyItem("QFD_Decomp_pct");
+    var req_obj = currentAction.findDescendantElements("QFD_VOC_attr");
+    var rollup_pct = 0;
+    for (var i = 0; i < req_obj.length; i++) {
+		var req_pct = req_obj[i].getPropertyItem("QFD_VOC_attr_pct");
+		if(req_pct.value != undefined) {
+		  rollup_pct = Number(rollup_pct) + Number(req_pct.value);
+		}
+		if (rollup_pct > 100) {
+	        window.alert ("More than 100%");
+	        rollup_pct = 100
+		}
+//		window.alert (rollup_pct);
+        }
+    var resultValue = rollup_pct.toString();
+//    window.alert (resultValue);
+    inArgs.resultBuilder.markToUpdateValue(decomp_pct.id, resultValue);
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QFD Compute Decomp pct</name>
+ </Item>
+</AML>

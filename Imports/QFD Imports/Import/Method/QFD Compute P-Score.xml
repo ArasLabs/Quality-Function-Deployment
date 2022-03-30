@@ -1,0 +1,82 @@
+﻿<AML>
+ <Item type="Method" id="9E62F23F021E485AAA17D99505EBD212" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var scopeIds = {};
+for (var i = 0; i < inArgs.changedPropertyItems.length; i++) {
+
+    var currentAction = inArgs.changedPropertyItems[i].getElement().findAncestorElement("QFD_Our_Prod");
+    var compareItems =  inArgs.changedPropertyItems[i].getElement().findAncestorElement("QFD_Key_Diff");
+    if (scopeIds[currentAction.id]) {
+        continue;
+    }
+    scopeIds[currentAction.id] = true;
+    
+    var Our_Prod_Align = currentAction.getPropertyItem("QFD_Our_Prod_score");
+    
+    var Pscore_val = compareItems.getPropertyItem("QFD_PScore");
+    var Key_Rel = compareItems.getPropertyItem("QFD_Key_Diff_Rel");
+    
+    if(Our_Prod_Align == undefined) {
+        var getOur_Prod_Align = compareItems.findDescendantElements("QFD_Our_Prod");
+        if(getOur_Prod_Align[0] == undefined) {
+            console.log("this is undefined");
+            return;
+        }
+        Our_Prod_Align = getOur_Prod_Align[0].getPropertyItem("QFD_Our_Prod_score");
+    }
+    
+    if(Key_Rel == undefined) {
+        var Key_Diff = currentAction.findDescendantElements("QFD_Key_Diff");
+
+        if(Key_Diff.length == 0) {
+            return;
+        }
+
+        for(var i=0; i < Key_Diff.length; i++){
+            var Maxcompval = 0;
+            var Key_Rel = Key_Diff[i].getPropertyItem("QFD_Key_Diff_Rel");
+            var Pscore_val = Key_Diff[i].getPropertyItem("QFD_PScore");
+            var Curr_Prod = Key_Diff[i].findDescendantElements("QFD_Cur_Prod");
+            for(var n=0; n < Curr_Prod.length; n++) {
+                var Curr_Score = Curr_Prod[n].getPropertyItem("QFD_Cur_Prod_score");
+                
+                if (Number(Curr_Score.value) >= Maxcompval) {
+    	            Maxcompval = Number(Curr_Score.value);
+    		    }
+                
+              Pscore = Number(Key_Rel.value) * (Maxcompval - Our_Prod_Align.value);
+              var resultValue = Pscore.toFixed(1);
+              inArgs.resultBuilder.markToUpdateValue(Pscore_val.id, resultValue);
+                
+            }
+        }
+    }
+    
+    
+    else {
+        var Curr_Prod = compareItems.findDescendantElements("QFD_Cur_Prod");
+        
+        // Handles the case when we are adding a new Key Differentiator
+        if(Curr_Prod == undefined || Curr_Prod.length == 0) {
+            return;
+        }
+        
+        Maxcompval = 0;
+        for(var e = 0; e < Curr_Prod.length; e++) {
+            var compval = Curr_Prod[e].getPropertyItem("QFD_Cur_Prod_score");
+            if (Number(compval.value) >= Maxcompval) {
+	            Maxcompval = Number(compval.value);
+		    }
+        }
+    }
+    
+
+    Pscore = Number(Key_Rel.value) * (Maxcompval - Our_Prod_Align.value);
+
+    var resultValue = Pscore.toFixed(1);
+    inArgs.resultBuilder.markToUpdateValue(Pscore_val.id, resultValue);
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>QFD Compute P-Score</name>
+ </Item>
+</AML>

@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="Property" id="E38F1F1EE9B34851A6A33E2F6DF9FB2F" action="add">
+  <column_alignment>left</column_alignment>
+  <data_type>string</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>0</is_required>
+  <label xml:lang="en">Name</label>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>3072</sort_order>
+  <source_id keyed_name="QFD" type="ItemType" name="QFD">2DC0B27BCCB642CDA69560444C30F5DF</source_id>
+  <stored_length>256</stored_length>
+  <track_history>0</track_history>
+  <name>_name</name>
+ </Item>
+</AML>

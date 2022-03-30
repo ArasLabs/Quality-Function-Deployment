@@ -1,0 +1,367 @@
+﻿<AML>
+ <Item type="cmf_ContentType" id="2A8480F5D2D24ACCBA1D4AB848F483E9" action="add">
+  <linked_item_type keyed_name="QFD" type="ItemType" name="QFD">2DC0B27BCCB642CDA69560444C30F5DF</linked_item_type>
+  <name>QFD</name>
+  <Relationships>
+   <Item type="cmf_ContentTypeView" id="56B260C8050D4CABAE6B5CBB45228C96" action="add">
+    <related_id keyed_name="Req Decomp" type="cmf_BaseView">B00E6710DCC1452FA11728C87C8AC219</related_id>
+    <sort_order>64</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+   </Item>
+   <Item type="cmf_ContentTypeView" id="4099FA336AAD4243AC48A346094DE7F2" action="add">
+    <related_id keyed_name="Key Diffs" type="cmf_BaseView">F1A93B2AF4F74F8783A098DEF7FC66FD</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+   </Item>
+   <Item type="cmf_ElementType" id="9973691A4D354FB2AD98456E12408114" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <parent keyed_name="QFD_Our_Prod" type="cmf_ElementType">6E10027CD22C435FA751152887ECA6D8</parent>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_Cur_Prod</name>
+    <Relationships>
+     <Item type="cmf_PropertyType" id="9634B0C74D384398BCE330C984F8C000" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_Cur_Prod" type="cmf_ElementType">9973691A4D354FB2AD98456E12408114</source_id>
+      <name>QFD_Cur_Prod_descr</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="088BE533F6934E2D92DCB7E6BFADB962" action="add">
+      <data_type>float</data_type>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="QFD_Cur_Prod" type="cmf_ElementType">9973691A4D354FB2AD98456E12408114</source_id>
+      <name>QFD_Cur_Prod_score</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="cmf_ElementType" id="EC6A5A1CCB544080922232AE28C01499" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <parent keyed_name="QFD_Key_Diff" type="cmf_ElementType">488AE2A3C3A348B79782603086E800C3</parent>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_Decomp</name>
+    <Relationships>
+     <Item type="cmf_PropertyType" id="70B38735A7174DA19DE277D867E40388" action="add">
+      <data_type>text</data_type>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_Decomp" type="cmf_ElementType">EC6A5A1CCB544080922232AE28C01499</source_id>
+      <name>QFD_Decomp_descr</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="F3F1D3027E3F4C528DA87C2C98796FCC" action="add">
+      <data_type>float</data_type>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="QFD_Decomp" type="cmf_ElementType">EC6A5A1CCB544080922232AE28C01499</source_id>
+      <ui_computed_property keyed_name="QFD Compute Decomp pct" type="Method">D2BBDCDA1BFD480F9881DDC215C26838</ui_computed_property>
+      <name>QFD_Decomp_pct</name>
+      <Relationships>
+       <Item type="cmf_ComputedProperty" id="833AB1B80C9C491BBBEACB6936712643" action="add">
+        <on_client_compute_method keyed_name="QFD Compute Decomp pct" type="Method">D2BBDCDA1BFD480F9881DDC215C26838</on_client_compute_method>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="QFD_Decomp_pct" type="cmf_PropertyType">F3F1D3027E3F4C528DA87C2C98796FCC</source_id>
+        <Relationships>
+            <Item type="cmf_ComputedPropertyDependency" id="053AEC1D5ABE4A58BFAAB7A0E60003AB" action="add">
+                <related_id keyed_name="QFD_Decomp_pct" type="cmf_PropertyType">F3F1D3027E3F4C528DA87C2C98796FCC</related_id>
+                <source_id keyed_name="833AB1B80C9C491BBBEACB6936712643" type="cmf_ComputedProperty">833AB1B80C9C491BBBEACB6936712643</source_id>
+            </Item>
+            <Item type="cmf_ComputedPropertyDependency" id="5609C43735FB46C6A550259B62D89559" action="add">
+                <related_id keyed_name="QFD_VOC_attr_pct" type="cmf_PropertyType">33D301BC7743496CBE187FAB395AE6BE</related_id>
+                <source_id keyed_name="833AB1B80C9C491BBBEACB6936712643" type="cmf_ComputedProperty">833AB1B80C9C491BBBEACB6936712643</source_id>
+            </Item>
+        </Relationships>
+     </Item>
+      </Relationships>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="cmf_ElementType" id="488AE2A3C3A348B79782603086E800C3" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <parent keyed_name="QFD_Our_Prod_Item" type="cmf_ElementType">EEAAE129367D47DBA7543AD6A1DDCA46</parent>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_Key_Diff</name>
+    <Relationships>
+     <Item type="cmf_PropertyType" id="E485938CC62547959AA66C3F2873F137" action="add">
+      <data_type>float</data_type>
+      <sort_order>64</sort_order>
+      <source_id keyed_name="QFD_Key_Diff" type="cmf_ElementType">488AE2A3C3A348B79782603086E800C3</source_id>
+      <ui_computed_property keyed_name="QFD Compute D-Score" type="Method">7B648AE13A384A128D1B30AC1E81DD4B</ui_computed_property>
+      <name>QFD_DScore</name>
+      <Relationships>
+       <Item type="cmf_ComputedProperty" id="95D8EE1F10764782A713B1FDFD2CAC02" action="add">
+        <on_client_compute_method keyed_name="QFD Compute D-Score" type="Method">7B648AE13A384A128D1B30AC1E81DD4B</on_client_compute_method>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="QFD_DScore" type="cmf_PropertyType">E485938CC62547959AA66C3F2873F137</source_id>
+        <Relationships>
+            <Item type="cmf_ComputedPropertyDependency" id="1BF4977C8FE5460F80F325DB5963A4BD" action="add">
+                <related_id keyed_name="QFD_Cur_Prod_score" type="cmf_PropertyType">088BE533F6934E2D92DCB7E6BFADB962</related_id>
+                <source_id keyed_name="95D8EE1F10764782A713B1FDFD2CAC02" type="cmf_ComputedProperty">95D8EE1F10764782A713B1FDFD2CAC02</source_id>
+            </Item>
+            <Item type="cmf_ComputedPropertyDependency" id="6F55E8C8ADE94AD680FCD9E238A8F646" action="add">
+                <related_id keyed_name="QFD_Our_Prod_score" type="cmf_PropertyType">E92A5CE1B16243C0ADCA3D8917E6B3A7</related_id>
+                <source_id keyed_name="95D8EE1F10764782A713B1FDFD2CAC02" type="cmf_ComputedProperty">95D8EE1F10764782A713B1FDFD2CAC02</source_id>
+            </Item>
+            <Item type="cmf_ComputedPropertyDependency" id="59F0EC122CE443AEB4BDE0B55736217F" action="add">
+                <related_id keyed_name="QFD_Key_Diff_Rel" type="cmf_PropertyType">86D773D07861464AB838DAB784784CD0</related_id>
+                <source_id keyed_name="95D8EE1F10764782A713B1FDFD2CAC02" type="cmf_ComputedProperty">95D8EE1F10764782A713B1FDFD2CAC02</source_id>
+            </Item>
+        </Relationships>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="cmf_PropertyType" id="F3771E28E7C849A8A21F048AEBAFB1BE" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>32</sort_order>
+      <source_id keyed_name="QFD_Key_Diff" type="cmf_ElementType">488AE2A3C3A348B79782603086E800C3</source_id>
+      <name>QFD_Key_Diff_descr2</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="86D773D07861464AB838DAB784784CD0" action="add">
+      <data_type>integer</data_type>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="QFD_Key_Diff" type="cmf_ElementType">488AE2A3C3A348B79782603086E800C3</source_id>
+      <name>QFD_Key_Diff_Rel</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="F9955D033BDA4B6085CB1007B1D7849C" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_Key_Diff" type="cmf_ElementType">488AE2A3C3A348B79782603086E800C3</source_id>
+      <name>QFD_Open_Issue</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="2224A82700264673AD0D4CCA1505937E" action="add">
+      <data_type>float</data_type>
+      <sort_order>96</sort_order>
+      <source_id keyed_name="QFD_Key_Diff" type="cmf_ElementType">488AE2A3C3A348B79782603086E800C3</source_id>
+      <ui_computed_property keyed_name="QFD Compute P-Score" type="Method">9E62F23F021E485AAA17D99505EBD212</ui_computed_property>
+      <name>QFD_PScore</name>
+      <Relationships>
+       <Item type="cmf_ComputedProperty" id="B73FBA66A3E74FB0A9F5388E022824F2" action="add">
+        <on_client_compute_method keyed_name="QFD Compute P-Score" type="Method">9E62F23F021E485AAA17D99505EBD212</on_client_compute_method>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="QFD_PScore" type="cmf_PropertyType">2224A82700264673AD0D4CCA1505937E</source_id>
+        <Relationships>
+            <Item type="cmf_ComputedPropertyDependency" id="19BB7104AE7B462EAA19B18B053C950C" action="add">
+                <related_id keyed_name="QFD_Our_Prod_score" type="cmf_PropertyType">E92A5CE1B16243C0ADCA3D8917E6B3A7</related_id>
+                <source_id keyed_name="B73FBA66A3E74FB0A9F5388E022824F2" type="cmf_ComputedProperty">B73FBA66A3E74FB0A9F5388E022824F2</source_id>
+            </Item>
+            <Item type="cmf_ComputedPropertyDependency" id="9696CA6530B34592981077FE7129D617" action="add">
+                <related_id keyed_name="QFD_Key_Diff_Rel" type="cmf_PropertyType">86D773D07861464AB838DAB784784CD0</related_id>
+                <source_id keyed_name="B73FBA66A3E74FB0A9F5388E022824F2" type="cmf_ComputedProperty">B73FBA66A3E74FB0A9F5388E022824F2</source_id>
+            </Item>
+            <Item type="cmf_ComputedPropertyDependency" id="AA06AADD50DE4552A58475B597BCF97A" action="add">
+                <related_id keyed_name="QFD_Cur_Prod_score" type="cmf_PropertyType">088BE533F6934E2D92DCB7E6BFADB962</related_id>
+                <source_id keyed_name="B73FBA66A3E74FB0A9F5388E022824F2" type="cmf_ComputedProperty">B73FBA66A3E74FB0A9F5388E022824F2</source_id>
+            </Item>
+        </Relationships>
+       </Item>
+      </Relationships>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="cmf_ElementType" id="6E10027CD22C435FA751152887ECA6D8" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <parent keyed_name="QFD_Key_Diff" type="cmf_ElementType">488AE2A3C3A348B79782603086E800C3</parent>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_Our_Prod</name>
+    <Relationships>
+     <Item type="cmf_PropertyType" id="E92A5CE1B16243C0ADCA3D8917E6B3A7" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>64</sort_order>
+      <source_id keyed_name="QFD_Our_Prod" type="cmf_ElementType">6E10027CD22C435FA751152887ECA6D8</source_id>
+      <ui_computed_property keyed_name="QFD Compute D-Score" type="Method">7B648AE13A384A128D1B30AC1E81DD4B</ui_computed_property>
+      <name>QFD_Our_Prod_score</name>
+      <Relationships>
+       <Item type="cmf_ComputedProperty" id="DB415E901E4C435884BD275D8C815D56" action="add">
+        <on_client_compute_method keyed_name="QFD Compute D-Score" type="Method">7B648AE13A384A128D1B30AC1E81DD4B</on_client_compute_method>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="QFD_Our_Prod_score" type="cmf_PropertyType">E92A5CE1B16243C0ADCA3D8917E6B3A7</source_id>
+        <Relationships>
+            <Item type="cmf_ComputedPropertyDependency" id="69F2392A180B48859CFDCA8E26F5551F" action="add">
+                <related_id keyed_name="QFD_Key_Diff_Rel" type="cmf_PropertyType">86D773D07861464AB838DAB784784CD0</related_id>
+                <source_id keyed_name="DB415E901E4C435884BD275D8C815D56" type="cmf_ComputedProperty">DB415E901E4C435884BD275D8C815D56</source_id>
+            </Item>
+            <Item type="cmf_ComputedPropertyDependency" id="684DB8EE125F466A820C7D8B4312AEDE" action="add">
+                <related_id keyed_name="QFD_Our_Prod_score" type="cmf_PropertyType">E92A5CE1B16243C0ADCA3D8917E6B3A7</related_id>
+                <source_id keyed_name="DB415E901E4C435884BD275D8C815D56" type="cmf_ComputedProperty">DB415E901E4C435884BD275D8C815D56</source_id>
+            </Item>
+            <Item type="cmf_ComputedPropertyDependency" id="E2FD031490A2424490E70E17A8E21FB5" action="add">
+                <related_id keyed_name="QFD_Cur_Prod_score" type="cmf_PropertyType">088BE533F6934E2D92DCB7E6BFADB962</related_id>
+                <source_id keyed_name="DB415E901E4C435884BD275D8C815D56" type="cmf_ComputedProperty">DB415E901E4C435884BD275D8C815D56</source_id>
+            </Item>
+        </Relationships>
+     </Item>
+      </Relationships>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="cmf_ElementType" id="EEAAE129367D47DBA7543AD6A1DDCA46" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_Our_Prod_Item</name>
+    <Relationships>
+     <Item type="cmf_PropertyType" id="979D363722A74B6AA060C8F8840068F1" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_Our_Prod_Item" type="cmf_ElementType">EEAAE129367D47DBA7543AD6A1DDCA46</source_id>
+      <name>QFD_Our_Prod_descr</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="cmf_ElementType" id="643C859AC36743E0944F3B16D3CF209C" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <parent keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</parent>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_Risk_C</name>
+    <Relationships>
+     <Item type="cmf_PropertyType" id="38F5C4C0A9884AF9B218AC926086E2BA" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_Risk_C" type="cmf_ElementType">643C859AC36743E0944F3B16D3CF209C</source_id>
+      <name>QFD_Risk_C_descr</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="cmf_ElementType" id="3883903071154FFEBD1C8C9E4B03319C" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <parent keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</parent>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_Risk_S</name>
+    <Relationships>
+     <Item type="cmf_PropertyType" id="2835DCACC4B849B39AA2A95847C5DC6C" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_Risk_S" type="cmf_ElementType">3883903071154FFEBD1C8C9E4B03319C</source_id>
+      <name>QFD_Risk_S_descr</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="cmf_ElementType" id="0F4FFEE5E6B84E18A9E3AC7A1C787AAC" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <parent keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</parent>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_Risk_T</name>
+    <Relationships>
+     <Item type="cmf_ElementBinding" id="5D058B9B38DA4C68A8AEDD28208CDA09" action="add">
+      <item_delete_behavior>NonCheckConstraint</item_delete_behavior>
+      <new_row_mode>PickOrCreate</new_row_mode>
+      <reference_required>0</reference_required>
+      <reference_type keyed_name="qs_Cause" type="ItemType" name="qs_Cause">7FACBC22D0C74C8F8833ECEDDB9AB4CA</reference_type>
+      <resolution_mode>Current</resolution_mode>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_Risk_T" type="cmf_ElementType">0F4FFEE5E6B84E18A9E3AC7A1C787AAC</source_id>
+      <synchronization_direction>FromItem</synchronization_direction>
+      <tracking_mode>Manual</tracking_mode>
+      <Relationships>
+       <Item type="cmf_PropertyBinding" id="DA512C89924440C49A5672BF33F0D649" action="add">
+        <property keyed_name="QFD_Risk_T_descr" type="cmf_PropertyType">1B4ECF0B88094A478D1C5C3E06EBCA0E</property>
+        <read_only>0</read_only>
+        <reference_type_property_id keyed_name="description" type="Property">66AFB4ED48EB463FB2D5FFC41816643A</reference_type_property_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="5D058B9B38DA4C68A8AEDD28208CDA09" type="cmf_ElementBinding">5D058B9B38DA4C68A8AEDD28208CDA09</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="cmf_PropertyType" id="1B4ECF0B88094A478D1C5C3E06EBCA0E" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_Risk_T" type="cmf_ElementType">0F4FFEE5E6B84E18A9E3AC7A1C787AAC</source_id>
+      <name>QFD_Risk_T_descr</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="cmf_ElementType" id="77668403F79F473B9604880AB80B2B8F" action="add">
+    <default_permission keyed_name="CMF Element Default Access" type="Permission">FAC64B6CE47348458D6DEB1C68DC4724</default_permission>
+    <parent keyed_name="QFD_Decomp" type="cmf_ElementType">EC6A5A1CCB544080922232AE28C01499</parent>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD" type="cmf_ContentType">2A8480F5D2D24ACCBA1D4AB848F483E9</source_id>
+    <name>QFD_VOC_attr</name>
+    <Relationships>
+     <Item type="cmf_ElementBinding" id="19E14F9CBE4C48538D3D572333CBF8C4" action="add">
+      <item_delete_behavior>NonCheckConstraint</item_delete_behavior>
+      <new_row_mode>PickOrCreate</new_row_mode>
+      <reference_required>0</reference_required>
+      <reference_type keyed_name="re_Requirement" type="ItemType" name="re_Requirement">55515617CB224C90AB5A9DAC0F061C2A</reference_type>
+      <resolution_mode>Current</resolution_mode>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <synchronization_direction>FromItem</synchronization_direction>
+      <tracking_mode>Manual</tracking_mode>
+      <Relationships>
+       <Item type="cmf_PropertyBinding" id="B887636718A64B86BD50FD9BBF7B1AA2" action="add">
+        <property keyed_name="QFD_VOC_REQ_num" type="cmf_PropertyType">272F9210C8534ABF947672BD0629B9BD</property>
+        <read_only>0</read_only>
+        <reference_type_property_id keyed_name="req_title" type="Property">44BECD8DF24D4B4790F00705701B5E92</reference_type_property_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="19E14F9CBE4C48538D3D572333CBF8C4" type="cmf_ElementBinding">19E14F9CBE4C48538D3D572333CBF8C4</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="cmf_PropertyType" id="354E87455E1F4D88B287832C28FE52FC" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <name>QFD_VOC_attr_Comment</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="818C7AA3325F4FDC87CCD90433DDFB81" action="add">
+      <data_type>text</data_type>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <name>QFD_VOC_attr_Conficts</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="DBFFEE7B26AC464CA57E4B488CF0E61C" action="add">
+      <data_length>32</data_length>
+      <data_type>string</data_type>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <name>QFD_VOC_attr_Could</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="C7FAB9CED945434A926A1FF7814234AF" action="add">
+      <data_type>text</data_type>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <name>QFD_VOC_attr_descr</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="DB5FDE5FC72B4416842FB11C63B94FE0" action="add">
+      <data_length>32</data_length>
+      <data_type>string</data_type>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <name>QFD_VOC_attr_Must</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="33D301BC7743496CBE187FAB395AE6BE" action="add">
+      <data_type>float</data_type>
+      <sort_order>320</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <name>QFD_VOC_attr_pct</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="BDCDDE10E52644759C97A68D2E0A6E79" action="add">
+      <data_length>32</data_length>
+      <data_type>string</data_type>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <name>QFD_VOC_attr_Should</name>
+     </Item>
+     <Item type="cmf_PropertyType" id="272F9210C8534ABF947672BD0629B9BD" action="add">
+      <data_length>64</data_length>
+      <data_type>string</data_type>
+      <sort_order>192</sort_order>
+      <source_id keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</source_id>
+      <name>QFD_VOC_REQ_num</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

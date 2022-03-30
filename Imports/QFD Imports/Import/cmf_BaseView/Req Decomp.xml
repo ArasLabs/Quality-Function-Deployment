@@ -1,0 +1,250 @@
+﻿<AML>
+ <Item type="cmf_TabularView" id="B00E6710DCC1452FA11728C87C8AC219" action="add">
+  <grid_border_color>#000000</grid_border_color>
+  <name>Req Decomp</name>
+  <Relationships>
+   <Item type="cmf_TabularViewColumn" id="3D40B853D87744E5BC6CAB67BA391580" action="add">
+    <classification>Property Default</classification>
+    <col_order>6</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">D-score</header>
+    <initial_width>50</initial_width>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_DScore" type="cmf_PropertyType">E485938CC62547959AA66C3F2873F137</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="79F712859EAF4E99AE0FFFD20437C53A" action="add">
+    <classification>Property Default</classification>
+    <col_order>7</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">P-Score</header>
+    <initial_width>50</initial_width>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_PScore" type="cmf_PropertyType">2224A82700264673AD0D4CCA1505937E</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="CFAEBB1E04264DDEB8DD1B042024C426" action="add">
+    <classification>Property Default</classification>
+    <col_order>8</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Decomposition</header>
+    <initial_width>200</initial_width>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Decomp_descr" type="cmf_PropertyType">70B38735A7174DA19DE277D867E40388</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="75717D3B12B14103BC488A3FC4F958F6" action="add">
+    <classification>Property Default</classification>
+    <col_order>10</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">VOC Attrr</header>
+    <initial_width>150</initial_width>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_VOC_attr_descr" type="cmf_PropertyType">C7FAB9CED945434A926A1FF7814234AF</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="31A017F514B84D238B60064D0879B59B" action="add">
+    <classification>Property Default</classification>
+    <col_order>11</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">EGR Req</header>
+    <initial_width>200</initial_width>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_VOC_REQ_num" type="cmf_PropertyType">272F9210C8534ABF947672BD0629B9BD</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="6F40B1192D334A37B31E9DE00C97D82C" action="add">
+    <classification>Property Default</classification>
+    <col_order>12</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">%</header>
+    <initial_width>50</initial_width>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_VOC_attr_pct" type="cmf_PropertyType">33D301BC7743496CBE187FAB395AE6BE</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="A43F8EFAA40E43E8B5042716DD7B69EC" action="add">
+    <classification>Property Default</classification>
+    <col_order>9</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">%</header>
+    <initial_width>50</initial_width>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Decomp_pct" type="cmf_PropertyType">F3F1D3027E3F4C528DA87C2C98796FCC</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="C49EB9B9D9BA4C1B8E333140DF329696" action="add">
+    <classification>Property Default</classification>
+    <col_order>13</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Conflicts</header>
+    <initial_width>200</initial_width>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_VOC_attr_Conficts" type="cmf_PropertyType">818C7AA3325F4FDC87CCD90433DDFB81</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="DDA6CD4805BB48C9939DDFFADE3A2EF5" action="add">
+    <classification>Property Default</classification>
+    <col_order>14</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Must Have</header>
+    <initial_width>100</initial_width>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_VOC_attr_Must" type="cmf_PropertyType">DB5FDE5FC72B4416842FB11C63B94FE0</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="ABEE1C982F4B428D85D18B86D2AD98CD" action="add">
+    <classification>Property Default</classification>
+    <col_order>15</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Should Have</header>
+    <initial_width>100</initial_width>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_VOC_attr_Should" type="cmf_PropertyType">BDCDDE10E52644759C97A68D2E0A6E79</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="2CEDC0C610924710B17C249B94F44E0F" action="add">
+    <classification>Property Default</classification>
+    <col_order>16</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Could Have</header>
+    <initial_width>100</initial_width>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_VOC_attr_Could" type="cmf_PropertyType">DBFFEE7B26AC464CA57E4B488CF0E61C</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="AE45A33C84434AFBB4632FEF4A50525B" action="add">
+    <classification>Property Default</classification>
+    <col_order>17</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Tech Risks</header>
+    <initial_width>100</initial_width>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Risk_T_descr" type="cmf_PropertyType">1B4ECF0B88094A478D1C5C3E06EBCA0E</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="508199D82CEA4566AC0E7E13D191F673" action="add">
+    <classification>Property Default</classification>
+    <col_order>18</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Schedule Risk</header>
+    <initial_width>200</initial_width>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Risk_S_descr" type="cmf_PropertyType">2835DCACC4B849B39AA2A95847C5DC6C</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="DFBA1E2B850E489BB51D8476FC3E2FCF" action="add">
+    <classification>Property Default</classification>
+    <col_order>19</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Cost Risk</header>
+    <initial_width>200</initial_width>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Risk_C_descr" type="cmf_PropertyType">38F5C4C0A9884AF9B218AC926086E2BA</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="6118FBAC40AA4A03A93A6C49C78E537C" action="add">
+    <classification>Property Default</classification>
+    <col_order>20</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Comment</header>
+    <initial_width>200</initial_width>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_VOC_attr_Comment" type="cmf_PropertyType">354E87455E1F4D88B287832C28FE52FC</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="7630C3CD232746BFB7C2F5F592FD3628" action="add">
+    <classification>Property Default</classification>
+    <col_order>1</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Key Differentiator</header>
+    <initial_width>200</initial_width>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Key_Diff_descr2" type="cmf_PropertyType">F3771E28E7C849A8A21F048AEBAFB1BE</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="F3527559396543069B7F6258DD9D1D99" action="add">
+    <classification>Property Default</classification>
+    <col_order>2</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Our Product</header>
+    <initial_width>150</initial_width>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Our_Prod_descr" type="cmf_PropertyType">979D363722A74B6AA060C8F8840068F1</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="CB10FCFEAA75407C8DD1F75FD745AF8C" action="add">
+    <classification>Property Default</classification>
+    <col_order>3</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Market Alignment</header>
+    <initial_width>100</initial_width>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Our_Prod_score" type="cmf_PropertyType">E92A5CE1B16243C0ADCA3D8917E6B3A7</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="CCDAF2DB79C74A01AB8899FF58234118" action="add">
+    <classification>Property Default</classification>
+    <col_order>4</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Competitor Products</header>
+    <initial_width>100</initial_width>
+    <sort_order>2560</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Cur_Prod_descr" type="cmf_PropertyType">9634B0C74D384398BCE330C984F8C000</property>
+   </Item>
+   <Item type="cmf_TabularViewColumn" id="6A9C1E54B9AE42BEB8B6682002B4E1F1" action="add">
+    <classification>Property Default</classification>
+    <col_order>5</col_order>
+    <editor_use_both>0</editor_use_both>
+    <header xml:lang="en">Market Alignment</header>
+    <initial_width>100</initial_width>
+    <sort_order>2688</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+    <property keyed_name="QFD_Cur_Prod_score" type="cmf_PropertyType">088BE533F6934E2D92DCB7E6BFADB962</property>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="6B6C6C5432E246218F3A96F33C11A97E" action="add">
+    <document_element_icon>../Images/HistoryContainer.svg</document_element_icon>
+    <element_type keyed_name="QFD_Risk_S" type="cmf_ElementType">3883903071154FFEBD1C8C9E4B03319C</element_type>
+    <label xml:lang="en">RiskS</label>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="DE6D841F7D454FD7937927E16D4DD6C2" action="add">
+    <document_element_icon>../Images/RedWarning.svg</document_element_icon>
+    <element_type keyed_name="QFD_Risk_C" type="cmf_ElementType">643C859AC36743E0944F3B16D3CF209C</element_type>
+    <label xml:lang="en">RiskC</label>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="A3F89B7D1E4747F8A1B27CBBF0E7F705" action="add">
+    <document_element_icon>../Images/FailureMode.svg</document_element_icon>
+    <element_type keyed_name="QFD_Risk_T" type="cmf_ElementType">0F4FFEE5E6B84E18A9E3AC7A1C787AAC</element_type>
+    <label xml:lang="en">RiskT</label>
+    <sort_order>8</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="6D57DFF60D3F475AA29B490D2E4F24F0" action="add">
+    <document_element_icon>../Images/DomainAccessControlDefinition.svg</document_element_icon>
+    <element_type keyed_name="QFD_VOC_attr" type="cmf_ElementType">77668403F79F473B9604880AB80B2B8F</element_type>
+    <label xml:lang="en">VOC</label>
+    <sort_order>16</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="8E62F2DF807D4859AF5D2866C7C0909A" action="add">
+    <document_element_icon>../Images/AuthenticationClasses.svg</document_element_icon>
+    <element_type keyed_name="QFD_Key_Diff" type="cmf_ElementType">488AE2A3C3A348B79782603086E800C3</element_type>
+    <label xml:lang="en">Key Diff</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+   </Item>
+   <Item type="cmf_TabularViewTree" id="B919E563AD1B442A83D299F2F40B0EC1" action="add">
+    <document_element_icon>../Images/MBOM.svg</document_element_icon>
+    <element_type keyed_name="QFD_Decomp" type="cmf_ElementType">EC6A5A1CCB544080922232AE28C01499</element_type>
+    <label xml:lang="en">Decomp</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Req Decomp" type="cmf_TabularView">B00E6710DCC1452FA11728C87C8AC219</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

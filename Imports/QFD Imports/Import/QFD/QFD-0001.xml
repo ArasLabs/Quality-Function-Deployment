@@ -1,0 +1,869 @@
+﻿<AML>
+ <Item type="QFD" id="B99D376846AD4BC889E2B06E65F6BBE2" action="add">
+  <_description>Market Eval for new Widget 5000</_description>
+  <_name>Widget 5000</_name>
+  <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+  <_item_number>QFD-0001</_item_number>
+  <Relationships>
+   <Item type="QFD_Cur_Prod" id="2E2EACE9B6D04B1F9D74E5FD74367EE5" action="add">
+    <parent_reference_id>1DDD089E595B4B15AE1FFC0936018D38</parent_reference_id>
+    <reference_id>0AE69CD84DB2489EBE850A72A0DFEE48</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Cur_Prod" id="5E25A171DB32463FB9B3414FCE309608" action="add">
+    <parent_reference_id>E52BA17538DB48F3B0740B7AB18126C4</parent_reference_id>
+    <reference_id>64E683B713864F4EA0915B53DB2C7C37</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Cur_Prod" id="C031B2C8C4884A5BB3E1D6C4788D96CE" action="add">
+    <parent_reference_id>BC42DF8B5DBF4BB8BF081A735B71D830</parent_reference_id>
+    <reference_id>C92D4FA27DB44B0D9E986AFCFC79037F</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Cur_Prod" id="420726227D83452A8CFB0D60A49DDB74" action="add">
+    <parent_reference_id>BC42DF8B5DBF4BB8BF081A735B71D830</parent_reference_id>
+    <reference_id>5783CE1BE420428EBDEA63D2719852D4</reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Cur_Prod" id="B93561E950B74FCBAEDC4B10E989D13D" action="add">
+    <parent_reference_id>E52BA17538DB48F3B0740B7AB18126C4</parent_reference_id>
+    <reference_id>2F120A8B88104064AA00F575D8CDB6CE</reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Cur_Prod" id="C7B42D7F8DA143B0AF5967EA1FCD2AE3" action="add">
+    <parent_reference_id>1DDD089E595B4B15AE1FFC0936018D38</parent_reference_id>
+    <reference_id>AC5D4E204D964E799D5B1797A9FF134B</reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Cur_Prod_descr" id="9FA5E1DE87F04A13A089911764077616" action="add">
+    <cmf_style />
+    <element_reference_id>0AE69CD84DB2489EBE850A72A0DFEE48</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>COMP A</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_descr" id="56BAEB828C254A57A2047EA84061A1AA" action="add">
+    <cmf_style />
+    <element_reference_id>AC5D4E204D964E799D5B1797A9FF134B</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>COMP B</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_descr" id="769F2A9A8794453C9D98878D3401E9FC" action="add">
+    <cmf_style />
+    <element_reference_id>64E683B713864F4EA0915B53DB2C7C37</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>COMP A</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_descr" id="EB86FE3DE7AA40FB9C1AA4CE8422415E" action="add">
+    <cmf_style />
+    <element_reference_id>2F120A8B88104064AA00F575D8CDB6CE</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>COMP B</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_descr" id="7CC03C7FD3E34D7888F4563290A576A7" action="add">
+    <cmf_style />
+    <element_reference_id>C92D4FA27DB44B0D9E986AFCFC79037F</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>COMP A</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_descr" id="4812E284F22D49CAB96C74ED6C07E027" action="add">
+    <cmf_style />
+    <element_reference_id>5783CE1BE420428EBDEA63D2719852D4</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>COMP B</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_score" id="7D72F6DDCEFF44E99A33CEC56B57E322" action="add">
+    <cmf_style />
+    <element_reference_id>0AE69CD84DB2489EBE850A72A0DFEE48</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.5</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_score" id="7D645BE93E2D4CE888FE3464A4C6D3B7" action="add">
+    <cmf_style />
+    <element_reference_id>AC5D4E204D964E799D5B1797A9FF134B</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.4</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_score" id="D8C649BA2923427EAA2140E1678B79C1" action="add">
+    <cmf_style />
+    <element_reference_id>64E683B713864F4EA0915B53DB2C7C37</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.5</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_score" id="D5D55DB3383A480CA631E228ADA0F0BC" action="add">
+    <cmf_style />
+    <element_reference_id>2F120A8B88104064AA00F575D8CDB6CE</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.2</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_score" id="EDCBD0410B9E4DA39230E387AEE01143" action="add">
+    <cmf_style />
+    <element_reference_id>C92D4FA27DB44B0D9E986AFCFC79037F</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.1</value>
+   </Item>
+   <Item type="QFD_Cur_Prod_score" id="34548E7FA5B342FB88EB39D353728AC2" action="add">
+    <cmf_style />
+    <element_reference_id>5783CE1BE420428EBDEA63D2719852D4</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.1</value>
+   </Item>
+   <Item type="QFD_Decomp" id="8D0B9E264F874D2989C967FEA04EAAFC" action="add">
+    <parent_reference_id>F52261BB4DF940F18CA837B3503F2E79</parent_reference_id>
+    <reference_id>B0577B5BB9494D5BBCD51DED2E30CE9A</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Decomp" id="C2FE91310E0643E9B97E30E353458890" action="add">
+    <parent_reference_id>61679C3A1B0A44D5872A0C9B718A5A5C</parent_reference_id>
+    <reference_id>F2784737737842149AE056F760E58A39</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Decomp" id="A76F3B762BB7434AB9ED4421C5BCEBC0" action="add">
+    <parent_reference_id>F52261BB4DF940F18CA837B3503F2E79</parent_reference_id>
+    <reference_id>430636C0CC564C44BECFA9FDE34095D6</reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Decomp_descr" id="DBE459C7483A494189EED63A80AE7D42" action="add">
+    <cmf_style />
+    <element_reference_id>B0577B5BB9494D5BBCD51DED2E30CE9A</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Meet Envelope/Mating Reqs
+</value>
+   </Item>
+   <Item type="QFD_Decomp_descr" id="197E771D75144CE6BC89E3006289FA24" action="add">
+    <cmf_style />
+    <element_reference_id>430636C0CC564C44BECFA9FDE34095D6</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Withstand Transit Damage
+</value>
+   </Item>
+   <Item type="QFD_Decomp_descr" id="3E1988F23F1D4170B46BD795171CB5F8" action="add">
+    <cmf_style />
+    <element_reference_id>F2784737737842149AE056F760E58A39</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Withstand Mechanical Loads
+</value>
+   </Item>
+   <Item type="QFD_Decomp_pct" id="BF40AC28421D454FB3471567FFA82B69" action="add">
+    <cmf_style />
+    <element_reference_id>B0577B5BB9494D5BBCD51DED2E30CE9A</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>100</value>
+   </Item>
+   <Item type="QFD_Decomp_pct" id="DBD2A29BD5794F8A9BFC48A6DB86F1FA" action="add">
+    <cmf_style />
+    <element_reference_id>430636C0CC564C44BECFA9FDE34095D6</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>54</value>
+   </Item>
+   <Item type="QFD_Decomp_pct" id="5A882401DD3E418D8A93A79AAC87529A" action="add">
+    <cmf_style />
+    <element_reference_id>F2784737737842149AE056F760E58A39</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>40</value>
+   </Item>
+   <Item type="QFD_DScore" id="184B6FC5470A4BD3A4F974C3698FE7CD" action="add">
+    <cmf_style />
+    <element_reference_id>F52261BB4DF940F18CA837B3503F2E79</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>5</value>
+   </Item>
+   <Item type="QFD_DScore" id="88FD2807B06445F7977A8063A8474100" action="add">
+    <cmf_style />
+    <element_reference_id>61679C3A1B0A44D5872A0C9B718A5A5C</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>10</value>
+   </Item>
+   <Item type="QFD_DScore" id="E3A4B74FB98B432FAD384C243258C0A9" action="add">
+    <cmf_style />
+    <element_reference_id>2D95BEFF54E84B8E97B28974CB929C03</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>20</value>
+   </Item>
+   <Item type="QFD_Key_Diff" id="1D9B4890585F418A9A3BDFEE755B4D0A" action="add">
+    <parent_reference_id>90339A6EB68249A7B6B8CC882488A508</parent_reference_id>
+    <reference_id>F52261BB4DF940F18CA837B3503F2E79</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Key_Diff" id="0427138991514356902D1178EC1CE59D" action="add">
+    <parent_reference_id>90339A6EB68249A7B6B8CC882488A508</parent_reference_id>
+    <reference_id>61679C3A1B0A44D5872A0C9B718A5A5C</reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Key_Diff" id="4B9B3097A06B46F7A189CC15E9D04727" action="add">
+    <parent_reference_id>90339A6EB68249A7B6B8CC882488A508</parent_reference_id>
+    <reference_id>2D95BEFF54E84B8E97B28974CB929C03</reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Key_Diff_descr2" id="1EE492EF2345496C96CB902DB03C22CC" action="add">
+    <cmf_style />
+    <element_reference_id>F52261BB4DF940F18CA837B3503F2E79</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Mechanically Robust</value>
+   </Item>
+   <Item type="QFD_Key_Diff_descr2" id="C11C509303D24C29862C34195A4D1636" action="add">
+    <cmf_style />
+    <element_reference_id>61679C3A1B0A44D5872A0C9B718A5A5C</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>70V in Zcase Package</value>
+   </Item>
+   <Item type="QFD_Key_Diff_descr2" id="055EDD58FE0E4B018CA1928189ADD9F6" action="add">
+    <cmf_style />
+    <element_reference_id>2D95BEFF54E84B8E97B28974CB929C03</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Integrated Stud/ship on harness</value>
+   </Item>
+   <Item type="QFD_Key_Diff_Rel" id="406EC13A1D344D2587F6621905B00F3B" action="add">
+    <cmf_style />
+    <element_reference_id>F52261BB4DF940F18CA837B3503F2E79</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>3</value>
+   </Item>
+   <Item type="QFD_Key_Diff_Rel" id="C5D70103C8864F4FAB3AB5E4373963AA" action="add">
+    <cmf_style />
+    <element_reference_id>61679C3A1B0A44D5872A0C9B718A5A5C</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>5</value>
+   </Item>
+   <Item type="QFD_Key_Diff_Rel" id="E1975FFC1CC24E3EAB77CB967AE444FD" action="add">
+    <cmf_style />
+    <element_reference_id>2D95BEFF54E84B8E97B28974CB929C03</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>4</value>
+   </Item>
+   <Item type="QFD_Open_Issue" id="6C7B0D791E834D21A64031699BBEF945" action="add">
+    <cmf_style />
+    <element_reference_id>F52261BB4DF940F18CA837B3503F2E79</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Pull Force and Torque to failure are drivers</value>
+   </Item>
+   <Item type="QFD_Open_Issue" id="8123ADC7379A420AA41DCF164CBEB31F" action="add">
+    <cmf_style />
+    <element_reference_id>61679C3A1B0A44D5872A0C9B718A5A5C</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_Open_Issue" id="42069AA2344A4CBB977C691FE13175DE" action="add">
+    <cmf_style />
+    <element_reference_id>2D95BEFF54E84B8E97B28974CB929C03</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_Our_Prod" id="AE52FD408FBA4CDD880480FA2085EDF0" action="add">
+    <parent_reference_id>2D95BEFF54E84B8E97B28974CB929C03</parent_reference_id>
+    <reference_id>BC42DF8B5DBF4BB8BF081A735B71D830</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Our_Prod" id="C70A31F0C48C4E3489E1CC2DA7D39912" action="add">
+    <parent_reference_id>F52261BB4DF940F18CA837B3503F2E79</parent_reference_id>
+    <reference_id>1DDD089E595B4B15AE1FFC0936018D38</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Our_Prod" id="D12C9DDE979345DBACBDE3B6A89D0CFB" action="add">
+    <parent_reference_id>61679C3A1B0A44D5872A0C9B718A5A5C</parent_reference_id>
+    <reference_id>E52BA17538DB48F3B0740B7AB18126C4</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Our_Prod_descr" id="E9ECD6C6623D495F9C92B1F0A65A6117" action="add">
+    <cmf_style />
+    <element_reference_id>90339A6EB68249A7B6B8CC882488A508</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Widget 3600</value>
+   </Item>
+   <Item type="QFD_Our_Prod_Item" id="FB5177A5847E475EB98D203B04F28441" action="add">
+    <reference_id>90339A6EB68249A7B6B8CC882488A508</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Our_Prod_score" id="65B5A23A3F20482F96905F06E2A321C0" action="add">
+    <cmf_style />
+    <element_reference_id>1DDD089E595B4B15AE1FFC0936018D38</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.6</value>
+   </Item>
+   <Item type="QFD_Our_Prod_score" id="E7B1261F3FE24F97AD6842A4D70657FA" action="add">
+    <cmf_style />
+    <element_reference_id>E52BA17538DB48F3B0740B7AB18126C4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.3</value>
+   </Item>
+   <Item type="QFD_Our_Prod_score" id="94BB1E017A364C79BD7EEB36A3B2549E" action="add">
+    <cmf_style />
+    <element_reference_id>BC42DF8B5DBF4BB8BF081A735B71D830</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.2</value>
+   </Item>
+   <Item type="QFD_PScore" id="24400D664FBB475BA16107646A34C375" action="add">
+    <cmf_style />
+    <element_reference_id>F52261BB4DF940F18CA837B3503F2E79</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.3</value>
+   </Item>
+   <Item type="QFD_PScore" id="EC9A4D4EF6C549BD8EF2FCF5D86D0F4D" action="add">
+    <cmf_style />
+    <element_reference_id>61679C3A1B0A44D5872A0C9B718A5A5C</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>-1</value>
+   </Item>
+   <Item type="QFD_PScore" id="F1374217CE27450DA78096165949C2D5" action="add">
+    <cmf_style />
+    <element_reference_id>2D95BEFF54E84B8E97B28974CB929C03</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>0.4</value>
+   </Item>
+   <Item type="QFD_Risk_C" id="B2DA37301A6542F8BCBA5CC76FEB11AA" action="add">
+    <parent_reference_id>BDA5D6F23522456181FE180573D281CA</parent_reference_id>
+    <reference_id>3BC9B97B7D7644D288211827B964A9AB</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Risk_C_descr" id="F74212B1E7E946D3BD222E6FDEB589A5" action="add">
+    <cmf_style />
+    <element_reference_id>3BC9B97B7D7644D288211827B964A9AB</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Costly setup</value>
+   </Item>
+   <Item type="QFD_Risk_S" id="0BC78C965D614252905C499BC51AEF1E" action="add">
+    <parent_reference_id>BDA5D6F23522456181FE180573D281CA</parent_reference_id>
+    <reference_id>D5BC04E9C91740C98A059F0CDA48F65D</reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+   </Item>
+   <Item type="QFD_Risk_S_descr" id="6C039C2A4FF74A3D891F69D5DB17DC8A" action="add">
+    <cmf_style />
+    <element_reference_id>D5BC04E9C91740C98A059F0CDA48F65D</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Tight timing</value>
+   </Item>
+   <Item type="QFD_Risk_T" id="30F28783F0DB4E5A97FD7EBC07BB7B63" action="add">
+    <bound_item_config_id>1AFC52D8A2A4401CB9A3BF41DDE22DB7</bound_item_config_id>
+    <bound_item_id>1AFC52D8A2A4401CB9A3BF41DDE22DB7</bound_item_id>
+    <parent_reference_id>BDA5D6F23522456181FE180573D281CA</parent_reference_id>
+    <reference_id>CA0B05287F87445E9D2EE50A69D9D808</reference_id>
+    <resolution_mode>Current</resolution_mode>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+    <tracking_mode>Manual</tracking_mode>
+   </Item>
+   <Item type="QFD_Risk_T_descr" id="A94201B17789487DBE85C7F6D4D3ACC0" action="add">
+    <cmf_style />
+    <element_reference_id>CA0B05287F87445E9D2EE50A69D9D808</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Material not withstanding heat</value>
+   </Item>
+   <Item type="QFD_VOC_attr" id="196CA8C221544C6B87CBC09014C936E9" action="add">
+    <bound_item_config_id>778099F85E5C4D7793AB99F46C07C989</bound_item_config_id>
+    <bound_item_id>778099F85E5C4D7793AB99F46C07C989</bound_item_id>
+    <parent_reference_id>F2784737737842149AE056F760E58A39</parent_reference_id>
+    <reference_id>81B53410C19E45FDB723C708C0DA717E</reference_id>
+    <resolution_mode>Current</resolution_mode>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+    <tracking_mode>Manual</tracking_mode>
+   </Item>
+   <Item type="QFD_VOC_attr" id="6037BAE712A34906B4C0A79E67B5B2FF" action="add">
+    <bound_item_config_id>12A5092E7212430894047F6153F42270</bound_item_config_id>
+    <bound_item_id>12A5092E7212430894047F6153F42270</bound_item_id>
+    <parent_reference_id>430636C0CC564C44BECFA9FDE34095D6</parent_reference_id>
+    <reference_id>EF2222FC496441329FFDC81D67C257E4</reference_id>
+    <resolution_mode>Current</resolution_mode>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+    <tracking_mode>Manual</tracking_mode>
+   </Item>
+   <Item type="QFD_VOC_attr" id="936A37349D88421AA53D1E718EAD8D3D" action="add">
+    <bound_item_config_id>545EE45EA9D5438397732DB913991321</bound_item_config_id>
+    <bound_item_id>545EE45EA9D5438397732DB913991321</bound_item_id>
+    <parent_reference_id>B0577B5BB9494D5BBCD51DED2E30CE9A</parent_reference_id>
+    <reference_id>BDA5D6F23522456181FE180573D281CA</reference_id>
+    <resolution_mode>Current</resolution_mode>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+    <tracking_mode>Manual</tracking_mode>
+   </Item>
+   <Item type="QFD_VOC_attr" id="442FD1286A4E418DA8F6F804854D6EC0" action="add">
+    <bound_item_config_id>778099F85E5C4D7793AB99F46C07C989</bound_item_config_id>
+    <bound_item_id>778099F85E5C4D7793AB99F46C07C989</bound_item_id>
+    <parent_reference_id>430636C0CC564C44BECFA9FDE34095D6</parent_reference_id>
+    <reference_id>CDEC06273C6E495B9477CB86A0D368C4</reference_id>
+    <resolution_mode>Current</resolution_mode>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+    <tracking_mode>Manual</tracking_mode>
+   </Item>
+   <Item type="QFD_VOC_attr" id="856CC627375E4FA59CF271B9A44123D0" action="add">
+    <bound_item_config_id>A3CE917EE0B14CEBB695D55326317B86</bound_item_config_id>
+    <bound_item_id>A3CE917EE0B14CEBB695D55326317B86</bound_item_id>
+    <parent_reference_id>B0577B5BB9494D5BBCD51DED2E30CE9A</parent_reference_id>
+    <reference_id>0A085DACFEC346879B4861717C89D8D8</reference_id>
+    <resolution_mode>Current</resolution_mode>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+    <tracking_mode>Manual</tracking_mode>
+   </Item>
+   <Item type="QFD_VOC_attr" id="BF0DAED4EDA5470C84A4E1F26B08FECF" action="add">
+    <bound_item_config_id>6AFD50B38C0B4C7FA6B1B2207493648C</bound_item_config_id>
+    <bound_item_id>6AFD50B38C0B4C7FA6B1B2207493648C</bound_item_id>
+    <parent_reference_id>F2784737737842149AE056F760E58A39</parent_reference_id>
+    <reference_id>D8312002F3824BC9B6C11FFA1D245731</reference_id>
+    <resolution_mode>Current</resolution_mode>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+    <tracking_mode>Manual</tracking_mode>
+   </Item>
+   <Item type="QFD_VOC_attr" id="697449BDF2814617A8ABC3BF512F3C5D" action="add">
+    <bound_item_config_id>6AFD50B38C0B4C7FA6B1B2207493648C</bound_item_config_id>
+    <bound_item_id>6AFD50B38C0B4C7FA6B1B2207493648C</bound_item_id>
+    <parent_reference_id>B0577B5BB9494D5BBCD51DED2E30CE9A</parent_reference_id>
+    <reference_id>FEE1ED8618474F16BD1E0AB24B08555B</reference_id>
+    <resolution_mode>Current</resolution_mode>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <team_id keyed_name="Product Team" type="Team">862B05F3713F43E793735EDF11D54611</team_id>
+    <tracking_mode>Manual</tracking_mode>
+   </Item>
+   <Item type="QFD_VOC_attr_Comment" id="70DA90FD02BD4FB49EBD5DFEF94E3360" action="add">
+    <cmf_style />
+    <element_reference_id>BDA5D6F23522456181FE180573D281CA</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>This is important</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Comment" id="AA1677A03AF8426C952B64B6A6712E08" action="add">
+    <cmf_style />
+    <element_reference_id>EF2222FC496441329FFDC81D67C257E4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Comment" id="E8A77F2B5D1C4C1891D4E4D08FA5E677" action="add">
+    <cmf_style />
+    <element_reference_id>0A085DACFEC346879B4861717C89D8D8</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Comment" id="02151F1EF0094A6584C7AC63CBC5A00F" action="add">
+    <cmf_style />
+    <element_reference_id>FEE1ED8618474F16BD1E0AB24B08555B</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Comment" id="8EA869A80C5C4964B0733524EC85AE7B" action="add">
+    <cmf_style />
+    <element_reference_id>CDEC06273C6E495B9477CB86A0D368C4</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Comment" id="A7012AD3BDE04D4DB6912F94D7B35F6C" action="add">
+    <cmf_style />
+    <element_reference_id>81B53410C19E45FDB723C708C0DA717E</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Comment" id="59681ADCC8CE4833B35E9737A2BB744F" action="add">
+    <cmf_style />
+    <element_reference_id>D8312002F3824BC9B6C11FFA1D245731</element_reference_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Conficts" id="5FC3EFA6DFE74B32AF5333A3B1AE87D1" action="add">
+    <cmf_style />
+    <element_reference_id>BDA5D6F23522456181FE180573D281CA</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>REQ-00000007</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Conficts" id="52FF9A96EB554E27A0826A152423CCE7" action="add">
+    <cmf_style />
+    <element_reference_id>EF2222FC496441329FFDC81D67C257E4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Conficts" id="806750B05D5345859F91B674BF37733D" action="add">
+    <cmf_style />
+    <element_reference_id>0A085DACFEC346879B4861717C89D8D8</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Conficts" id="E0A049CC870A4CF59131BF8CA88EB16B" action="add">
+    <cmf_style />
+    <element_reference_id>FEE1ED8618474F16BD1E0AB24B08555B</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Conficts" id="1EBBBAB759024B07909F31516421B017" action="add">
+    <cmf_style />
+    <element_reference_id>CDEC06273C6E495B9477CB86A0D368C4</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Conficts" id="78A3B014FE364AB49B92ACF15D5546C2" action="add">
+    <cmf_style />
+    <element_reference_id>81B53410C19E45FDB723C708C0DA717E</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Conficts" id="1D8D3E035F0843B8B2E49AEDD356B7B4" action="add">
+    <cmf_style />
+    <element_reference_id>D8312002F3824BC9B6C11FFA1D245731</element_reference_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Could" id="EEFA847790E3489BB5B0E528FEA4F891" action="add">
+    <cmf_style />
+    <element_reference_id>BDA5D6F23522456181FE180573D281CA</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Could" id="4CA2C2C9B01444498839720C585765F3" action="add">
+    <cmf_style />
+    <element_reference_id>EF2222FC496441329FFDC81D67C257E4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Could" id="FD574E5FE4DE4C65A5122F58486517A4" action="add">
+    <cmf_style />
+    <element_reference_id>0A085DACFEC346879B4861717C89D8D8</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Could" id="0915833D199A4C789B76AD91B5FFA91C" action="add">
+    <cmf_style />
+    <element_reference_id>FEE1ED8618474F16BD1E0AB24B08555B</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Could" id="6C474B44BD844DA3B81CC2CF1F27ABA8" action="add">
+    <cmf_style />
+    <element_reference_id>CDEC06273C6E495B9477CB86A0D368C4</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Could" id="C0E3F0F1A507407486F9201956FF1698" action="add">
+    <cmf_style />
+    <element_reference_id>81B53410C19E45FDB723C708C0DA717E</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Could" id="E70A24886DCE4916A17794DC53335236" action="add">
+    <cmf_style />
+    <element_reference_id>D8312002F3824BC9B6C11FFA1D245731</element_reference_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_descr" id="872D5535EFEC486B9A53B42A723E2905" action="add">
+    <cmf_style />
+    <element_reference_id>BDA5D6F23522456181FE180573D281CA</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Crimp Geom &amp; Form</value>
+   </Item>
+   <Item type="QFD_VOC_attr_descr" id="BBEB940CD2BF4F2899CAF01FB660FB8E" action="add">
+    <cmf_style />
+    <element_reference_id>EF2222FC496441329FFDC81D67C257E4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Packaging</value>
+   </Item>
+   <Item type="QFD_VOC_attr_descr" id="E001EF53279246DC97DC5ECB7D5AD2C9" action="add">
+    <cmf_style />
+    <element_reference_id>0A085DACFEC346879B4861717C89D8D8</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Indexing</value>
+   </Item>
+   <Item type="QFD_VOC_attr_descr" id="9041CF1BE2FB413B9B401DC8FF2A2E7B" action="add">
+    <cmf_style />
+    <element_reference_id>FEE1ED8618474F16BD1E0AB24B08555B</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Indexing</value>
+   </Item>
+   <Item type="QFD_VOC_attr_descr" id="1ED97EE64F7F4678A70FB672DAB48DC7" action="add">
+    <cmf_style />
+    <element_reference_id>CDEC06273C6E495B9477CB86A0D368C4</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Packaging</value>
+   </Item>
+   <Item type="QFD_VOC_attr_descr" id="02C865A12A2A415EA71CC4BE140F173A" action="add">
+    <cmf_style />
+    <element_reference_id>81B53410C19E45FDB723C708C0DA717E</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Pull force</value>
+   </Item>
+   <Item type="QFD_VOC_attr_descr" id="786E005EBF4746F383867181306249B6" action="add">
+    <cmf_style />
+    <element_reference_id>D8312002F3824BC9B6C11FFA1D245731</element_reference_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Torque</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Must" id="47EE91177BD949EC8732B45246BE51D5" action="add">
+    <cmf_style />
+    <element_reference_id>BDA5D6F23522456181FE180573D281CA</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>X</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Must" id="E1BDD835AF6E4B298809993AE0E34587" action="add">
+    <cmf_style />
+    <element_reference_id>EF2222FC496441329FFDC81D67C257E4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>X</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Must" id="58D4E675E8C54EC4B145F31258A460F0" action="add">
+    <cmf_style />
+    <element_reference_id>0A085DACFEC346879B4861717C89D8D8</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Must" id="FF341B9C847A4A7DBEE6D7F7F888B809" action="add">
+    <cmf_style />
+    <element_reference_id>FEE1ED8618474F16BD1E0AB24B08555B</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Must" id="724E6FD499914210ABCD6BAA4AB1AE8B" action="add">
+    <cmf_style />
+    <element_reference_id>CDEC06273C6E495B9477CB86A0D368C4</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Must" id="6893A60A980B4E2FBBCC0C00D4B6157D" action="add">
+    <cmf_style />
+    <element_reference_id>81B53410C19E45FDB723C708C0DA717E</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>600N</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Must" id="0F3BA1CFCC6340A09BD7248D0462DA47" action="add">
+    <cmf_style />
+    <element_reference_id>D8312002F3824BC9B6C11FFA1D245731</element_reference_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>25Nm</value>
+   </Item>
+   <Item type="QFD_VOC_attr_pct" id="5B768D0A018B404CAC36313422BE7510" action="add">
+    <cmf_style />
+    <element_reference_id>BDA5D6F23522456181FE180573D281CA</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>50</value>
+   </Item>
+   <Item type="QFD_VOC_attr_pct" id="EF34A83DAA6D4C6B9FE81167DF1FA505" action="add">
+    <cmf_style />
+    <element_reference_id>EF2222FC496441329FFDC81D67C257E4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>50</value>
+   </Item>
+   <Item type="QFD_VOC_attr_pct" id="2291AE63CB8043B69E5F2E0FE25C30E4" action="add">
+    <cmf_style />
+    <element_reference_id>0A085DACFEC346879B4861717C89D8D8</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>25</value>
+   </Item>
+   <Item type="QFD_VOC_attr_pct" id="17F29F2BE01E4B998D565F508AC628C3" action="add">
+    <cmf_style />
+    <element_reference_id>FEE1ED8618474F16BD1E0AB24B08555B</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>25</value>
+   </Item>
+   <Item type="QFD_VOC_attr_pct" id="6AB99AED65134C049916319AF9EFD944" action="add">
+    <cmf_style />
+    <element_reference_id>CDEC06273C6E495B9477CB86A0D368C4</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>4</value>
+   </Item>
+   <Item type="QFD_VOC_attr_pct" id="5AB9A071BE6D4A699FDCC69B5470BB97" action="add">
+    <cmf_style />
+    <element_reference_id>81B53410C19E45FDB723C708C0DA717E</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>20</value>
+   </Item>
+   <Item type="QFD_VOC_attr_pct" id="0C5AF224F0A549D594D364CAAAAA2AE0" action="add">
+    <cmf_style />
+    <element_reference_id>D8312002F3824BC9B6C11FFA1D245731</element_reference_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>20</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Should" id="CFFA97C1949846B19DE4D482E45D17E9" action="add">
+    <cmf_style />
+    <element_reference_id>BDA5D6F23522456181FE180573D281CA</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>X</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Should" id="1ED87A0A8C084549B8BD0AE5D3F8C563" action="add">
+    <cmf_style />
+    <element_reference_id>EF2222FC496441329FFDC81D67C257E4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>X</value>
+   </Item>
+   <Item type="QFD_VOC_attr_Should" id="210190E86CA3433CA39343662694734F" action="add">
+    <cmf_style />
+    <element_reference_id>0A085DACFEC346879B4861717C89D8D8</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Should" id="21063E780B0C4D4EB58EF30BA9BC89DE" action="add">
+    <cmf_style />
+    <element_reference_id>FEE1ED8618474F16BD1E0AB24B08555B</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Should" id="6DCA42FB7810406A8B09BC81EDC3CEE4" action="add">
+    <cmf_style />
+    <element_reference_id>CDEC06273C6E495B9477CB86A0D368C4</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Should" id="1545ED6FE5D747DA9A25855B1AB80385" action="add">
+    <cmf_style />
+    <element_reference_id>81B53410C19E45FDB723C708C0DA717E</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_attr_Should" id="6D10B72CF9184120AD58730D44303BFA" action="add">
+    <cmf_style />
+    <element_reference_id>D8312002F3824BC9B6C11FFA1D245731</element_reference_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+   </Item>
+   <Item type="QFD_VOC_REQ_num" id="4F1C14CE0EB94EEFA0AAF6C6B9BF0E70" action="add">
+    <cmf_style />
+    <element_reference_id>BDA5D6F23522456181FE180573D281CA</element_reference_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Power</value>
+   </Item>
+   <Item type="QFD_VOC_REQ_num" id="5D022018D91B4272920C5EF71A93ABBB" action="add">
+    <cmf_style />
+    <element_reference_id>EF2222FC496441329FFDC81D67C257E4</element_reference_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Extruder Compatibility</value>
+   </Item>
+   <Item type="QFD_VOC_REQ_num" id="8EF2C88CCE1E40318C0850F7E21B7FDF" action="add">
+    <cmf_style />
+    <element_reference_id>0A085DACFEC346879B4861717C89D8D8</element_reference_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Software Bundle</value>
+   </Item>
+   <Item type="QFD_VOC_REQ_num" id="6FE09CA094FE4DFCBF5074BB31065D6B" action="add">
+    <cmf_style />
+    <element_reference_id>FEE1ED8618474F16BD1E0AB24B08555B</element_reference_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Filament Compatibility</value>
+   </Item>
+   <Item type="QFD_VOC_REQ_num" id="C0D97C9080C64EC0B300AC4375CBD13E" action="add">
+    <cmf_style />
+    <element_reference_id>CDEC06273C6E495B9477CB86A0D368C4</element_reference_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Internal Connectivity</value>
+   </Item>
+   <Item type="QFD_VOC_REQ_num" id="9DDDDED5BBC3425BBC78438DDFE85DFE" action="add">
+    <cmf_style />
+    <element_reference_id>81B53410C19E45FDB723C708C0DA717E</element_reference_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Internal Connectivity</value>
+   </Item>
+   <Item type="QFD_VOC_REQ_num" id="FDE8CA46C83F4C469D612A57AA080367" action="add">
+    <cmf_style />
+    <element_reference_id>D8312002F3824BC9B6C11FFA1D245731</element_reference_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="QFD-0001" type="QFD">B99D376846AD4BC889E2B06E65F6BBE2</source_id>
+    <value>Filament Compatibility</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

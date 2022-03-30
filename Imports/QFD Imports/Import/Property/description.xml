@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="Property" id="66AFB4ED48EB463FB2D5FFC41816643A" action="add">
+  <column_alignment>left</column_alignment>
+  <column_width>250</column_width>
+  <data_type>string</data_type>
+  <is_hidden>0</is_hidden>
+  <is_hidden2>0</is_hidden2>
+  <is_indexed>0</is_indexed>
+  <is_keyed>0</is_keyed>
+  <is_multi_valued>0</is_multi_valued>
+  <is_required>1</is_required>
+  <label xml:lang="en">Description</label>
+  <range_inclusive>0</range_inclusive>
+  <readonly>0</readonly>
+  <sort_order>3200</sort_order>
+  <source_id keyed_name="qs_Cause" type="ItemType" name="qs_Cause">7FACBC22D0C74C8F8833ECEDDB9AB4CA</source_id>
+  <stored_length>512</stored_length>
+  <track_history>0</track_history>
+  <name>description</name>
+ </Item>
+</AML>
