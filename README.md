@@ -2,6 +2,8 @@
 
 Custom ItemType utilizing CMF to compare product to market and possible key differentiators.
 
+![Quality-Function-Deployment](Screenshots/QFD Example.png)
+
 ## Supported Aras Versions
 
 Aras
