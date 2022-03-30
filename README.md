@@ -4,8 +4,8 @@ Custom ItemType utilizing CMF to compare product to market and possible key diff
 
 ## Supported Aras Versions
 
-Project | Aras
---------|------
+Aras
+--------|
 [v1](https://github.com/ArasLabs/generic-action-item/releases/tag/v1) | 12 SP14, 12 SP18, Release 14, Release 17, Release 18
 
 
